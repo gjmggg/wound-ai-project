@@ -12,9 +12,13 @@ pip install -r requirements.txt
 https://pan.baidu.com/s/1rXlDPuoZByYry9cVKJvkCw?pwd=ix55 
 
 models文件结构如下（路径可在 app.py 中自行修改）：
+
 DINOv2 权重：从官方文件下载dinov2_vitl14_pretrain.pth并放在 ./models/dinov2_vitl14_pretrain.pth，由于文件太大，未直接上传，需自行下载
+
 SAM2 微调权重：本作品微调后的权重为checkpoint60.pt，已上传至 ./models/checkpoint60.pt
+
 DUFUTissueSegNet组织分割权重已放入 ./models/best_model.pth
+
 同时paraphrase-multilingual-MiniLM-L12-v2也放至./models下
 
 
