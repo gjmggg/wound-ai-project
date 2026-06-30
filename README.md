@@ -11,6 +11,8 @@ pip install -r requirements.txt
 SAM2 微调权重：本作品微调后的权重为checkpoint60.pt，已上传至 ./models/checkpoint60.pt
 DINOv2 权重：从官方文件下载dinov2_vitl14_pretrain.pth并放在 ./models/dinov2_vitl14_pretrain.pth，由于文件太大，未直接上传，需自行下载
 DUFUTissueSegNet组织分割权重已放入 ./models/best_model.pth
+由于文件大小限制无法全部上传，models文件夹从以下链接下载：
+https://pan.baidu.com/s/1BcdsZ4xu8vf09tp_ElRNMw?pwd=c82h 提取码: c82h
 
 ## 申请 DeepSeek API 密钥，并在 app.py 中填入
 DEEPSEEK_API_KEY = "your-api-key-here"
